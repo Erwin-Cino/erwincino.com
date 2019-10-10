@@ -1,4 +1,26 @@
-@import url("/font-faces.css");
+@font-face {
+  font-family: "roboto-black";
+  src: url("/fonts/Roboto-black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Osaka";
+  font-weight: normal;
+  font-style: normal;
+  src: url("/fonts/osake-re.ttf");
+  src: url("/fonts/osake-re-webfont.woff") format("woff"),
+    url("/fonts/osake-re-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "haymakerregular";
+  src: url("/fonts/haymaker-webfont.eot");
+  src: url("/fonts/haymaker-webfont.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/haymaker-webfont.woff") format("woff"),
+    url("/fonts/haymaker-webfont.ttf") format("truetype"),
+    url("/fonts/haymaker-webfont.svg#haymakerregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
@@ -44,5 +66,22 @@ body {
   writing-mode: vertical-rl;
   text-orientation: upright;
   text-transform: uppercase;
-  font-family: roboto;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+}
+.position-main {
+  min-width: 80%;
+  background: #fbe8a6;
+}
+.osaka {
+  font-family: "haymakerregular";
+}
+.beige-lines,
+.beige-lines-1,
+.beige-lines-2 {
+  border: 5px #f4976c solid;
+  float: left;
+}
+.beige-lines {
+  width: 40%;
 }
