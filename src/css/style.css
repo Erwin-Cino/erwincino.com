@@ -1,0 +1,48 @@
+@import url("/font-faces.css");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.home-first {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.blog-menu {
+  background: #000;
+  display: flex;
+  align-items: center;
+  width: 2%;
+}
+.blog-menu-text {
+  writing-mode: vertical-rl !important;
+  text-orientation: upright;
+  color: #fff;
+  font-family: roboto;
+  cursor: pointer;
+}
+.jap-text {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 45px;
+  letter-spacing: 10px;
+  margin: 10px 0px 10px 0px;
+}
+.jap-div {
+  background: #b4dfe5;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two-text {
+  display: flex;
+  align-items: center;
+}
+.name {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
+  font-family: roboto;
+}

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: roboto;
+  src: url("./components/fonts/Roboto-black.ttf");
+}
+@font-face {
+  font-family: osake-re;
+  src: url("./components/fonts/osaka-re.ttf");
+}
