@@ -19,7 +19,7 @@
   "dependencies": {
     "autoprefixer-stylus": "^1.0.0",
     "babel-template": "^6.26.0",
-    "firebase": "^7.1.0",
+    "firebase": "^10.9.0",
     "fontface-loader": "0.0.8",
     "prop-types": "^15.7.2",
     "re-base": "^4.0.0",
